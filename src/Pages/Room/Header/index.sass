@@ -1,0 +1,33 @@
+.HeaderRoom
+    height: 80px
+    width: 100%
+    background-color: #0353bd
+    display: flex
+    align-items: center
+    justify-content: center
+    border-bottom: 4px solid #4296fc
+    .left
+        width: 5%
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        @media screen and (max-width: 768px)
+            width: 15%
+        svg
+            color: white
+            margin-left: 10px
+            font-size: 2rem
+            cursor: pointer
+            transition: 0.5s
+            &:hover
+                color: #4296fc
+                filter: drop-shadow(0 0 8px white)
+    .right
+        display: flex
+        color: white
+        align-items: center
+        justify-content: flex-start
+        width: 95%
+        @media screen and (max-width: 768px)
+            font-size: 0.6rem
+

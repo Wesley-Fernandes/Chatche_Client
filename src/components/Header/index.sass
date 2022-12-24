@@ -1,0 +1,56 @@
+.HeaderTop
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    overflow: hidden
+    height: 100px
+    display: flex
+    background-color: #0353bd
+    border-bottom: 4px solid #4296fc
+    transition: 0.5s
+    .logo
+        display: flex
+        width: 100px
+        @media screen and (max-width: 768px)
+            width: 50px
+        img
+            margin-left: 10px
+            width: 80%
+            @media screen and (max-width: 768px)
+                width: 50px
+    .searchbar
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 50%
+        @media screen and (max-width: 768px)
+            width: 50%
+
+        input
+            border: none
+            padding-left: 1rem
+            outline: none
+            width: 40%
+            height: 30px
+            border-radius: 20px 0 0 20px
+            @media screen and (max-width: 768px)
+                flex: 1
+        button
+            border: none
+            height: 30px
+            width: 125px
+            border-radius: 0 20px 20px 0
+            cursor: pointer
+            @media screen and (max-width: 768px)
+                width: 70px
+    .exit
+        button
+            margin-right: 10px
+            height: 30px
+            border: none
+            width: 125px
+            border-radius: 20px
+            cursor: pointer
+            @media screen and (max-width: 768px)
+                width: 90px
+

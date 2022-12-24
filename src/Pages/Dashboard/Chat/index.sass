@@ -1,0 +1,48 @@
+.chat--room
+    width: 600px
+    display: flex
+    margin: 0.4rem 0
+    background-color: white
+    height: 80px
+    padding: 0.4rem
+    border-radius: 20px
+    overflow: hidden
+    border-right: 6px solid #4296fc
+    transition: 0.5s
+    cursor: pointer
+    &:hover
+        background-color: #cacaca
+    @media screen and (max-width: 768px)
+        width: 360px
+    .chat--name
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 50%
+        font-size: 1.5rem
+        @media screen and (max-width: 768px)
+            font-size: 1.1rem
+        h3
+            opacity: 0.6
+    .chat--info
+        width: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+        span
+            width: 150px
+            display: flex
+            height: 100%
+            align-items: center
+            justify-content: flex-end
+            font-size: 1.2rem
+            font-weight: bolder
+            color: #0000007e
+            @media screen and (max-width: 768px)
+                font-size: 1rem
+            svg
+                margin-left: 10px
+                font-size: 1.8rem
+                color: #4296fc
+                @media screen and (max-width: 768px)
+                    font-size: 1.2rem
