@@ -7,7 +7,7 @@ import { Authentify } from '../../Firebase/firebase';
 
 import Chat from "./Chat"
 import "./index.sass"
-import Exit from "./exit"
+import Exit from "./Exit"
 import Header from "../../components/Header"
 export default function Dashboard() {
   const Navigate = useNavigate()
