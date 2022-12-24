@@ -4,12 +4,8 @@ export default function Msg(message){
   const {from, msg, name, room} = message.datas;
 
   const email = localStorage.getItem("email");
-  let MyUsername = []
-  if(email){
-    const MyUsername = email.split("@");
-  }else{
-    return
-  }
+  const MyUsername = email.split("@");
+
 
   
 
